@@ -4,7 +4,7 @@
     "module": "commonjs",
     "lib": ["ES2020"],
     "outDir": "./dist",
-    "rootDir": "./src",
+    "rootDir": ".",
     "baseUrl": "./src",
     "strict": true,
     "esModuleInterop": true,
@@ -23,6 +23,6 @@
     "declarationMap": true,
     "sourceMap": true
   },
-  "include": ["src/**/*"],
+  "include": ["src/**/*", "utils/**/*"],
   "exclude": ["node_modules", "dist"]
 }
